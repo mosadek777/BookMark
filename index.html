@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+<!-- 
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/all.min.css">
+    <title>book Mark</title>
+</head>
+<body>
+    
+
+<div class="BookmarkHome">
+<div class="container d-flex flex-column justify-content-center align-items-center vh-100 ">
+    <div class="bookmakerForm col-md-5 p-5 ">
+       <div class="text-center d-flex justify-content-center align-content-center">
+        <i class="fa-solid fa-bookmark px-2 fs-1"></i>
+        <h1 class=" bookMarkerTitle"><span class="element"></span></h1>
+       </div>
+
+
+       <div class="formItems">
+           <label for="siteName" class="py-2">site Name</label>
+           <input type="text" id="siteName" class="form-control" placeholder="bookMark Name">
+           <div id="siteAlert" class="alert alert-danger d-none">you must start with capital letter followed with 2 to 8 small letters</div>
+        </div>
+
+       <div class="formItems">
+        <label for="siteUrl" class="py-2">site Url</label>
+        <input type="text" id="siteUrl" class="form-control" placeholder="https://www.google.com">
+        <div id="bookmarkURLAlert" class="alert alert-danger d-none">
+                    Bookmark URL must start with:https:// (www.), then any char and ends with (.com, .org or .net)
+                         </div>
+
+                         <p class="text-danger text-center fa-beat-fade fs-5 my-3 mx-5 font-weight-bold  d-none" id="inputsAlert">All Inputs Are Required</p>
+    </div>
+ <div class="formBtn">
+     <button class="w-100 btn btn-danger mt-4 " disabled id="submitBtn">Add BookMarker</button>
+ </div>
+
+    </div>
+    <div class="arrow-Down">
+        <a href="#bookMarkData">
+        <i class="fa-solid pt-4 mt-4 fa-angles-down fs-1 fa-bounce "></i>
+    </a>
+    </div>
+  
+</div>
+
+
+
+
+</div>
+
+
+
+
+<div class="Data">
+  <div class="container ">
+      <div class="row flex-column align-items-center text-center justify-content-center ">
+
+        <div class="col-md-12 p-3" id="bookMarkData">
+
+
+        </div>
+
+
+      </div>
+  </div>
+    
+
+
+</div>
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

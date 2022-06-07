@@ -1,0 +1,36 @@
+body
+{
+    box-sizing: border-box;
+    /* font-family: 'Macondo', cursive; */
+    font-family: 'PT Sans Narrow', sans-serif;
+   background-image: url("../images/4.jpeg");
+   background-size: cover;
+
+
+}
+
+.bookmakerForm
+{
+    color: aqua;
+    border: 1px solid;
+    background-color:rgba(0, 0, 0, 0.8)
+}
+.bookMarkerTitle{
+font-size:3rem;
+color: aqua;
+}
+.arrow-Down i 
+{
+    color: white;
+    font-size:3rem !important;
+}
+.bookMark-div
+{
+    margin:20px;
+    padding: 10px;
+    background-color: rgba(148, 148, 197, 0.8)
+}
+.bookMark-div h3 
+{
+    color: aliceblue;
+}
